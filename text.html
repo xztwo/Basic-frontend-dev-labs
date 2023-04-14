@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Разметка</title>
+    </head>
+    <body>
+<p><ins>
+С хорошо оформленной и структурированной разметкой намного удобнее работать как самому верстальщику,
+так и его коллегам. Нужные участки кода будут находиться гораздо быстрее,
+а внести в них изменения и дополнения станет проще.
+</ins></p>
+<p><dfn>
+Теги не должны хаотично плясать туда-сюда на странице редактора. Чтобы с легкостью ориентироваться в документе,
+пишите открывающий и закрывающий теги на одной вертикальной линии друг под другом.
+</dfn></p>
+<p><code>
+    int brightness = 0;<br>
+    int led1 = 9;<br>
+    int led2 = 10;<br>
+    int led3 = 11;<br>
+    void setup(){<br>
+    for(int i = 9; i  12; i++)<br>
+    pinMode(i, OUTPUT);<br>
+    }<br>
+    void loop(){<br>
+    digitalWrite(led1, HIGH);<br>
+    digitalWrite(led3, LOW);<br>
+    delay(500);<br>
+    digitalWrite(led1, LOW);<br>
+    digitalWrite(led2, HIGH);<br>
+    delay(500);<br>
+    digitalWrite(led2, LOW);<br>
+    digitalWrite(led3, HIGH);<br>
+    delay(500);<br>
+    }<br>
+</body>
+</html>
